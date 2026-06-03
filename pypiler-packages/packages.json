@@ -173,6 +173,28 @@
       "abis": {
         "any": "six/six-1.17.0-py2.py3-none-any.whl"
       }
+    },
+    {
+      "name": "openpyxl",
+      "display_name": "openpyxl",
+      "version": "3.1.5",
+      "type": "pure",
+      "size_mb": 0.25,
+      "description": "Read/Write Excel 2010 xlsx/xlsm/xltx/xltm files",
+      "abis": {
+        "any": "openpyxl/openpyxl-3.1.5-py2.py3-none-any.whl"
+      }
+    },
+    {
+      "name": "et-xmlfile",
+      "display_name": "et-xmlfile",
+      "version": "2.0.0",
+      "type": "pure",
+      "size_mb": 0.02,
+      "description": "An implementation of lxml.xmlfile for the standard library",
+      "abis": {
+        "any": "et_xmlfile/et_xmlfile-2.0.0-py3-none-any.whl"
+      }
     }
   ]
 }
