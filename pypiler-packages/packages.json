@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "packages": [
+    {
+      "name": "numpy",
+      "display_name": "NumPy",
+      "version": "1.26.2",
+      "type": "native",
+      "size_mb": 4.8,
+      "description": "Scientific computing & arrays",
+      "abis": {
+        "arm64-v8a": "numpy/arm64-v8a.whl",
+        "armeabi-v7a": "numpy/armeabi-v7a.whl",
+        "x86_64": "numpy/x86_64.whl"
+      }
+    },
+    {
+      "name": "pandas",
+      "display_name": "Pandas",
+      "version": "2.1.3",
+      "type": "native",
+      "size_mb": 11,
+      "description": "Data analysis & DataFrames",
+      "abis": {
+        "arm64-v8a": "pandas/arm64-v8a.whl",
+        "armeabi-v7a": "pandas/armeabi-v7a.whl",
+        "x86_64": "pandas/x86_64.whl"
+      }
+    },
+    {
+      "name": "matplotlib",
+      "display_name": "Matplotlib",
+      "version": "3.x.x",
+      "type": "native",
+      "size_mb": 15,
+      "description": "Plotting & charts",
+      "abis": {
+        "arm64-v8a": "matplotlib/arm64-v8a.whl",
+        "armeabi-v7a": "matplotlib/armeabi-v7a.whl",
+        "x86_64": "matplotlib/x86_64.whl"
+      }
+    },
+    {
+      "name": "pillow",
+      "display_name": "Pillow",
+      "version": "10.x.x",
+      "type": "native",
+      "size_mb": 3,
+      "description": "Image processing",
+      "abis": {
+        "arm64-v8a": "pillow/arm64-v8a.whl",
+        "armeabi-v7a": "pillow/armeabi-v7a.whl",
+        "x86_64": "pillow/x86_64.whl"
+      }
+    },
+    {
+      "name": "requests",
+      "display_name": "Requests",
+      "version": "2.31.0",
+      "type": "pure",
+      "size_mb": 0.3,
+      "description": "HTTP requests made easy",
+      "abis": {
+        "any": "requests/any.whl"
+      }
+    },
+    {
+      "name": "flask",
+      "display_name": "Flask",
+      "version": "3.0.0",
+      "type": "pure",
+      "size_mb": 0.2,
+      "description": "Lightweight web framework",
+      "abis": {
+        "any": "flask/any.whl"
+      }
+    },
+    {
+      "name": "jinja2",
+      "display_name": "Jinja2",
+      "version": "3.1.2",
+      "type": "pure",
+      "size_mb": 0.2,
+      "description": "Template engine",
+      "abis": {
+        "any": "jinja2/any.whl"
+      }
+    },
+    {
+      "name": "urllib3",
+      "display_name": "urllib3",
+      "version": "2.1.0",
+      "type": "pure",
+      "size_mb": 0.1,
+      "description": "HTTP client library",
+      "abis": {
+        "any": "urllib3/any.whl"
+      }
+    }
+  ]
+}
