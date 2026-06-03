@@ -140,6 +140,39 @@
       "abis": {
         "any": "itsdangerous/itsdangerous-2.2.0-py3-none-any.whl"
       }
+    },
+    {
+      "name": "pytz",
+      "display_name": "pytz",
+      "version": "2026.2",
+      "type": "pure",
+      "size_mb": 0.5,
+      "description": "World timezone definitions",
+      "abis": {
+        "any": "pytz/pytz-2026.2-py2.py3-none-any.whl"
+      }
+    },
+    {
+      "name": "python-dateutil",
+      "display_name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "type": "pure",
+      "size_mb": 0.2,
+      "description": "Extensions to the standard datetime module",
+      "abis": {
+        "any": "python-dateutil/python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+      }
+    },
+    {
+      "name": "six",
+      "display_name": "six",
+      "version": "1.17.0",
+      "type": "pure",
+      "size_mb": 0.01,
+      "description": "Python 2 and 3 compatibility utilities",
+      "abis": {
+        "any": "six/six-1.17.0-py2.py3-none-any.whl"
+      }
     }
   ]
 }
