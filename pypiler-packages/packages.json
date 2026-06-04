@@ -12,7 +12,8 @@
         "arm64-v8a": "numpy/numpy-1.26.2-0-cp311-cp311-android_21_arm64_v8a.whl",
         "armeabi-v7a": "numpy/numpy-1.26.2-0-cp311-cp311-android_21_armeabi_v7a.whl",
         "x86_64": "numpy/numpy-1.26.2-0-cp311-cp311-android_21_x86_64.whl"
-      }
+      },
+      "category": "main"
     },
     {
       "name": "pandas",
@@ -25,7 +26,8 @@
         "arm64-v8a": "pandas/pandas-2.1.3-1-cp311-cp311-android_24_arm64_v8a.whl",
         "armeabi-v7a": "pandas/pandas-2.1.3-1-cp311-cp311-android_24_armeabi_v7a.whl",
         "x86_64": "pandas/pandas-2.1.3-1-cp311-cp311-android_24_x86_64.whl"
-      }
+      },
+      "category": "main"
     },
     {
       "name": "matplotlib",
@@ -38,7 +40,8 @@
         "arm64-v8a": "matplotlib/matplotlib-3.6.0-0-cp311-cp311-android_21_arm64_v8a.whl",
         "armeabi-v7a": "matplotlib/matplotlib-3.6.0-0-cp311-cp311-android_21_armeabi_v7a.whl",
         "x86_64": "matplotlib/matplotlib-3.6.0-0-cp311-cp311-android_21_x86_64.whl"
-      }
+      },
+      "category": "main"
     },
     {
       "name": "pillow",
@@ -51,7 +54,8 @@
         "arm64-v8a": "pillow/pillow-11.0.0-0-cp311-cp311-android_24_arm64_v8a.whl",
         "armeabi-v7a": "pillow/pillow-11.0.0-0-cp311-cp311-android_24_armeabi_v7a.whl",
         "x86_64": "pillow/pillow-11.0.0-0-cp311-cp311-android_24_x86_64.whl"
-      }
+      },
+      "category": "main"
     },
     {
       "name": "markupsafe",
@@ -64,7 +68,8 @@
         "x86_64": "MarkupSafe/markupsafe-3.0.3-0-cp311-cp311-android_24_x86_64.whl",
         "arm64-v8a": "MarkupSafe/markupsafe-3.0.3-0-cp311-cp311-android_24_arm64_v8a.whl",
         "armeabi-v7a": "MarkupSafe/markupsafe-3.0.3-0-cp311-cp311-android_24_armeabi_v7a.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "requests",
@@ -75,7 +80,8 @@
       "description": "HTTP requests made easy",
       "abis": {
         "any": "requests/requests-2.32.3-py3-none-any.whl"
-      }
+      },
+      "category": "main"
     },
     {
       "name": "flask",
@@ -86,7 +92,8 @@
       "description": "Lightweight web framework",
       "abis": {
         "any": "flask/flask-3.1.2-py3-none-any.whl"
-      }
+      },
+      "category": "main"
     },
     {
       "name": "jinja2",
@@ -97,7 +104,8 @@
       "description": "Template engine",
       "abis": {
         "any": "jinja2/jinja2-3.1.6-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "urllib3",
@@ -108,7 +116,8 @@
       "description": "HTTP client library",
       "abis": {
         "any": "urllib3/urllib3-2.2.2-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "werkzeug",
@@ -119,7 +128,8 @@
       "description": "WSGI utility library",
       "abis": {
         "any": "Werkzeug/werkzeug-3.1.3-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "click",
@@ -130,7 +140,8 @@
       "description": "Command line interface toolkit",
       "abis": {
         "any": "click/click-8.1.8-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "itsdangerous",
@@ -141,7 +152,8 @@
       "description": "Safe data signing",
       "abis": {
         "any": "itsdangerous/itsdangerous-2.2.0-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "pytz",
@@ -152,7 +164,8 @@
       "description": "World timezone definitions",
       "abis": {
         "any": "pytz/pytz-2026.2-py2.py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "python-dateutil",
@@ -163,7 +176,8 @@
       "description": "Extensions to the standard datetime module",
       "abis": {
         "any": "python-dateutil/python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "six",
@@ -174,7 +188,8 @@
       "description": "Python 2 and 3 compatibility utilities",
       "abis": {
         "any": "six/six-1.17.0-py2.py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "openpyxl",
@@ -185,7 +200,8 @@
       "description": "Read/Write Excel 2010 xlsx/xlsm/xltx/xltm files",
       "abis": {
         "any": "openpyxl/openpyxl-3.1.5-py2.py3-none-any.whl"
-      }
+      },
+      "category": "main"
     },
     {
       "name": "et-xmlfile",
@@ -196,7 +212,8 @@
       "description": "An implementation of lxml.xmlfile for the standard library",
       "abis": {
         "any": "et_xmlfile/et_xmlfile-2.0.0-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "cycler",
@@ -207,7 +224,8 @@
       "description": "Composable style cycles",
       "abis": {
         "any": "cycler/cycler-0.12.1-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "fonttools",
@@ -218,7 +236,8 @@
       "description": "Tools to manipulate font files",
       "abis": {
         "any": "fonttools/fonttools-4.63.0-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "kiwisolver",
@@ -231,7 +250,8 @@
         "arm64-v8a": "kiwisolver/kiwisolver-1.4.5-0-cp311-cp311-android_21_arm64_v8a.whl",
         "armeabi-v7a": "kiwisolver/kiwisolver-1.4.5-0-cp311-cp311-android_21_armeabi_v7a.whl",
         "x86_64": "kiwisolver/kiwisolver-1.4.5-0-cp311-cp311-android_21_x86_64.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "packaging",
@@ -242,7 +262,8 @@
       "description": "Core utilities for Python packages",
       "abis": {
         "any": "packaging/packaging-26.2-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "pyparsing",
@@ -253,7 +274,8 @@
       "description": "Python parsing module",
       "abis": {
         "any": "pyparsing/pyparsing-3.3.2-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "charset-normalizer",
@@ -264,7 +286,8 @@
       "description": "The Real First Universal Charset Detector",
       "abis": {
         "any": "charset-normalizer/charset_normalizer-3.4.7-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "idna",
@@ -275,7 +298,8 @@
       "description": "Internationalized Domain Names in Applications",
       "abis": {
         "any": "idna/idna-3.18-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "certifi",
@@ -286,7 +310,8 @@
       "description": "Python package for providing Mozilla's CA Bundle",
       "abis": {
         "any": "certifi/certifi-2026.5.20-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     },
     {
       "name": "blinker",
@@ -297,7 +322,8 @@
       "description": "Fast, simple object-to-object and broadcast signaling",
       "abis": {
         "any": "blinker/blinker-1.9.0-py3-none-any.whl"
-      }
+      },
+      "category": "dependency"
     }
   ]
 }
